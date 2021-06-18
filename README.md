@@ -6,14 +6,14 @@ Las denominaciones de las monedas son:
 
 * 5
 * 10
-* 25
+* 20
 * 50
 
 ## Consideraciones
 
 * Lenguaje de programación Java
 * OpenJDK 11.0
-* Netbeans 12.0
+* Apache Netbeans 12.0
 * Ubuntu MATE 20.04
 
 ## Capturas

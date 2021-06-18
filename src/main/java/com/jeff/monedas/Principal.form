@@ -46,7 +46,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="txt50" min="-2" pref="47" max="-2" attributes="0"/>
                                   <Component id="txt5" min="-2" pref="47" max="-2" attributes="0"/>
-                                  <Component id="txt25" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="txt20" min="-2" pref="47" max="-2" attributes="0"/>
                                   <Component id="txt10" min="-2" pref="47" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -98,7 +98,7 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txt25" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt20" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -138,7 +138,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Cantidad de monedas de 25"/>
+        <Property name="text" type="java.lang.String" value="Cantidad de monedas de 20"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
@@ -151,7 +151,7 @@
         <Property name="editable" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txt25">
+    <Component class="javax.swing.JTextField" name="txt20">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
       </Properties>

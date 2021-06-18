@@ -35,7 +35,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         txt5 = new javax.swing.JTextField();
-        txt25 = new javax.swing.JTextField();
+        txt20 = new javax.swing.JTextField();
         txt10 = new javax.swing.JTextField();
         txt50 = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
@@ -56,13 +56,13 @@ public class Principal extends javax.swing.JFrame {
 
         jLabel3.setText("Cantidad de monedas de 10");
 
-        jLabel4.setText("Cantidad de monedas de 25");
+        jLabel4.setText("Cantidad de monedas de 20");
 
         jLabel5.setText("Cantidad de monedas de 50");
 
         txt5.setEditable(false);
 
-        txt25.setEditable(false);
+        txt20.setEditable(false);
 
         txt10.setEditable(false);
 
@@ -96,7 +96,7 @@ public class Principal extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txt50, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txt5, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txt25, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txt20, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txt10, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel6)
@@ -133,7 +133,7 @@ public class Principal extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(txt25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
@@ -148,26 +148,26 @@ public class Principal extends javax.swing.JFrame {
         int cantidad = Integer.parseInt(txtInput.getText());
         txtCantidad.setText(String.valueOf(cantidad));
         
-        int cont5 = 0, cont10 = 0, cont25 = 0, cont50 = 0;
+        int cont5 = 0, cont10 = 0, cont20 = 0, cont50 = 0;
         
         if(cantidad / 50 > 0)
             cont50 = cantidad/50;
         int modulo50 = cantidad%50;
         
         if(modulo50 / 25 > 0)
-            cont25 = modulo50/25;
-        int modulo25 = modulo50%25;
+            cont20 = modulo50/20;
+        int modulo20 = modulo50%20;
         
-        if(modulo25 / 10 > 0)
-            cont10 = modulo25/10;
-        int modulo10 = modulo25%10;
+        if(modulo20 / 10 > 0)
+            cont10 = modulo20/10;
+        int modulo10 = modulo20%10;
         
         if(modulo10/5 > 0)
             cont5 = modulo10/5;
         
         txt5.setText(String.valueOf(cont5));
         txt10.setText(String.valueOf(cont10));
-        txt25.setText(String.valueOf(cont25));
+        txt20.setText(String.valueOf(cont20));
         txt50.setText(String.valueOf(cont50));
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -215,7 +215,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JTextField txt10;
-    private javax.swing.JTextField txt25;
+    private javax.swing.JTextField txt20;
     private javax.swing.JTextField txt5;
     private javax.swing.JTextField txt50;
     private javax.swing.JTextField txtCantidad;
