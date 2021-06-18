@@ -160,7 +160,7 @@ public class Principal extends javax.swing.JFrame {
         
         if(modulo25 / 10 > 0)
             cont10 = modulo25/10;
-        int modulo10 = modulo25%5;
+        int modulo10 = modulo25%10;
         
         if(modulo10/5 > 0)
             cont5 = modulo10/5;
